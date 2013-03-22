@@ -13,8 +13,8 @@ title : Fish 4 Entertainment
 tagline: Site Tagline
 author :
   name : Fish 4
-  email : Fish4Ent@gmail.com
-  github : Fish
+  email : fish4entertainments@gmail.com
+  github : Fish4
   twitter : Fish4Entertainment
   feedburner : feedname
 
@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : fish4games
     livefyre :
       site_id : 123
     intensedebate :
@@ -113,7 +113,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : like tweet
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
