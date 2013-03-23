@@ -9,7 +9,7 @@ tagline: Supporting tagline
 
 Welcome to Fish 4 Entertainments, current developed games:
 
-    * [Atlantis Warfares](https://mega.co.nz/#!WhBHEBLC!H_6OkxCyX57_aJEAHfznKAeQsvBurIC4hM9zb3gp2iU)
+* [Atlantis Warfares](https://mega.co.nz/#!WhBHEBLC!H_6OkxCyX57_aJEAHfznKAeQsvBurIC4hM9zb3gp2iU)
 
 Source code will be included into Fish 4/ repositories :soon:  
 
