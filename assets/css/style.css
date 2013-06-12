@@ -13,6 +13,7 @@ body {
 
 #main-container {
 	width: 980px;
+	margin: 0 auto;
 }
 
 aside {
@@ -21,4 +22,8 @@ aside {
 	position: fixed;
 	border-right: 1px dashed;
 	background: #6D6D6D;
+}
+
+.main-content {
+	float: right;
 }
