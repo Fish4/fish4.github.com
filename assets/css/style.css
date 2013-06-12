@@ -13,6 +13,7 @@ body {
 
 #main-container {
 	width: 980px;
+	height: 760px;
 	margin: 0 auto;
 }
 
@@ -27,5 +28,6 @@ aside {
 }
 
 .main-content {
+	height: 760px;
 	float: right;
 }
