@@ -38,6 +38,8 @@ nav {
 
 nav ul {
 	list-style-type: none;
+	display: inline;
+	text-align: center;
 }
 
 nav ul li {
@@ -49,11 +51,21 @@ nav ul.menu li a {
 	text-decoration: none;
 	padding: 5px;
 	border: 1px dashed;
+	display: inline-block;
+	width: 75px;
 }
 
 nav ul.menu li a:hover {
 	opacity: 50%;
 	background: #fff;
+}
+
+nav ul.social {
+	border: 1px solid;
+}
+
+nav ul.social {
+	float: left;
 }
 
 .main-content {
