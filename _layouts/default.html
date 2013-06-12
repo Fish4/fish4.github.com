@@ -1,6 +1,35 @@
----
-theme :
-  name : mark-reid
----
+<!DOCTYPE html>
+<html ng-app="fish4-app">
+<head>
+	<meta charset=utf-8 />
+	<title> {% if page.title %} {{ page.title }} | {% endif %} Fish 4 Development Blog </title>
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="/assets/css/css-social-buttons/css/zocial.stripped.css" type="text/css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.js"></script>
+
+	<script src="/assets/js/app.js"></script>
+	<script src="/assets/js/services.js"></script>
+	<script src="/assets/js/controllers.js"></script>
+	<script src="/assets/js/directives.js"></script>
+</head>
+
 {% include JB/setup %}
-{% include themes/mark-reid/default.html %}
+
+<body>
+
+	<div id="main-container">
+
+    	{% include header.html %}
+
+		<div class="main-content">
+			{{ content }}
+		</div>
+
+		{% include footer.html %}
+
+	</div>
+</body>
+</html>
