@@ -44,6 +44,17 @@ nav ul li {
 	line-height: 40px;	
 }
 
+nav ul.menu li a {
+	text-decoration: none;
+	padding: 5px;
+	border: 1px dashed;
+}
+
+nav ul.menu li a:hover {
+	opacity: 50%;
+	background: #fff;
+}
+
 .main-content {
 	height: 760px;
 	width: 705px;
