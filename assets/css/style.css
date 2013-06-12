@@ -11,13 +11,11 @@ body {
 	margin: 0;
 }
 
-.main-content {
-	padding-left: 30px;
-	padding-top: 50px;
-	height: 760px;
-	width: 675px;
-	float: right;
-	border-left: 2px dashed #000;
+#main-container {
+	width: 980px;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
 }
 
 .clean {
@@ -82,8 +80,10 @@ nav ul.social li {
 }
 
 .main-content {
+	padding-left: 30px;
+	padding-top: 50px;
 	height: 760px;
-	width: 705px;
+	width: 675px;
 	float: right;
 	border-left: 2px dashed #000;
 }
