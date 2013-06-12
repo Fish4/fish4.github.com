@@ -23,9 +23,17 @@ body {
 }
 
 aside {
+	text-align: right;
 	float: left;
 	width: 275px;
 	position: fixed;
+	margin-top: 50px;
+}
+
+nav {
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
 }
 
 .main-content {
