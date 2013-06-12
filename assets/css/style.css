@@ -79,6 +79,10 @@ nav ul.social li {
 	line-height: 0;
 }
 
+.social {
+	text-align: center;
+}
+
 .main-content {
 	padding-left: 30px;
 	padding-top: 50px;
