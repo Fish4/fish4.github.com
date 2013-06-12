@@ -11,6 +11,10 @@ body {
 	margin: 0;
 }
 
+#main-container {
+	width: 980px;
+}
+
 header {
 	float: left;
 	width: 275px;
