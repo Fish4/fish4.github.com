@@ -41,10 +41,11 @@ nav ul {
 }
 
 nav ul li {
-	line-height: 40px;	
+	line-height: 40px;
 }
 
 nav ul.menu li a {
+	font-size: 150%;
 	text-decoration: none;
 	padding: 5px;
 	border: 1px dashed;
