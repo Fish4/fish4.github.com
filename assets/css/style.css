@@ -42,6 +42,19 @@ nav ul {
 	text-align: center;
 }
 
+.slider-title {
+	text-align: center;
+	margin: 20px;
+}
+
+.slider h1 {
+	font-size: 33.5px;
+}
+
+aside .tagline {
+	text-align: right;
+}
+
 nav ul li {
 	line-height: 40px;
 }
