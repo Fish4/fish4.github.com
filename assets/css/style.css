@@ -15,8 +15,10 @@ body {
 	width: 980px;
 }
 
-header {
+aside {
 	float: left;
 	width: 275px;
 	position: fixed;
+	border-right: 1px dashed;
+	background: #6D6D6D;
 }
