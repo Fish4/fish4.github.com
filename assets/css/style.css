@@ -13,7 +13,7 @@ body {
 
 #main-container {
 	width: 980px;
-	height: 760px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ aside {
 
 .main-content {
 	height: 760px;
-	width: 705px;
+	width: 100%;
 	float: right;
 	border-left: 2px dashed #000;
 }
