@@ -5,6 +5,11 @@ tagline: Game Development Blog
 ---
 {% include JB/setup %}
 
+<carousel interval="myInterval">
+	<slide ng-repeat="slide in indexSlides" active="slide.active">
+		<img ng-src="{{ site.leftCurleys }} slide.image {{ site.rightCurleys }}" style="margin:auto;">
+	</slide>
+</carousel>
 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, magnam nemo sint eius temporibus aspernatur aperiam! Quo, exercitationem ipsam culpa molestias assumenda tempore error incidunt odio sit earum maxime expedita!</div>
 <div>Expedita, veritatis obcaecati officia sint et molestiae ipsam adipisci ex! Dicta, iusto, placeat, hic eos tempora odio unde facere labore sed accusantium nulla aliquam tempore ab voluptate neque magni cumque?</div>
 <div>Ea, eos, sapiente, quis laudantium reiciendis fugiat repellat voluptatem rem nisi pariatur debitis sequi placeat deleniti ipsa recusandae quam earum praesentium delectus et sunt voluptatum molestiae explicabo accusamus voluptatibus repellendus?</div>
