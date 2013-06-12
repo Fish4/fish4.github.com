@@ -96,7 +96,7 @@ nav ul.social li {
 	width: 675px;
 	float: right;
 	border-left: 2px dashed #000;
-	overflow: scroll;
+	overflow: auto;
 }
 
 ::-webkit-scrollbar {
