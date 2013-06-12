@@ -60,11 +60,8 @@ nav ul.menu li a:hover {
 	background: #fff;
 }
 
-nav ul.social {
+nav ul.social li {
 	border: 1px solid;
-}
-
-nav ul.social {
 	float: left;
 }
 
