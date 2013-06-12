@@ -47,7 +47,7 @@ nav ul {
 	margin: 20px;
 }
 
-.slider h1 {
+.slider-title h1 {
 	font-size: 33.5px;
 }
 
@@ -76,6 +76,7 @@ nav ul.menu li a:hover {
 nav ul.social li {
 	border: 1px solid;
 	float: left;
+	line-height: 0;
 }
 
 .main-content {
