@@ -29,5 +29,7 @@ aside {
 
 .main-content {
 	height: 760px;
+	width: 705px;
 	float: right;
+	border-left: 2px dashed #000;
 }
