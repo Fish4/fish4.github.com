@@ -36,6 +36,10 @@ nav {
 	margin-right: 20px;
 }
 
+nav.ul {
+	list-style-type: none;
+}
+
 .main-content {
 	height: 760px;
 	width: 705px;
