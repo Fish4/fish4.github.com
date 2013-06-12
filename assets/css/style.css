@@ -11,3 +11,8 @@ body {
 	margin: 0;
 }
 
+header {
+	float: left;
+	width: 275px;
+	position: fixed;
+}
