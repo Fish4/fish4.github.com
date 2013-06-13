@@ -19,7 +19,7 @@ title: Posts
 					</a>
 				</h1>
 				<p class="description">
-					{{ post.content | 120 }} ... <a href="{{ BASE_PATH }}{{ post.url }}">read more</a>
+					{{ post.content | truncate:120 }} ... <a href="{{ BASE_PATH }}{{ post.url }}">read more</a>
 				</p>
 			</li>
 		{% endfor %}
