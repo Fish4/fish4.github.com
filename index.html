@@ -18,6 +18,10 @@ tagline: Game Development Blog
 	{% assign post = site.posts.first %}
 	{% assign content = post.content %}
 
+	<h2>
+		Latest Post:
+	</h2>
+
 	<h3>
 		{% if post.title %}
 			<a href="{{ root_url }}{{ post.url }}">{{ post.title }} - <small>{{ post.tagline }}</small></a>
