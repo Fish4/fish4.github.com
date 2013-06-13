@@ -121,3 +121,15 @@ nav ul.social li {
 .post-container {
 	width: 100%;
 }
+
+.posts {
+
+}
+
+.posts ul {
+	list-style-type: none;
+}
+
+.posts ul li {
+	border-bottom: 1px dashed;
+}
