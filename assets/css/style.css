@@ -92,6 +92,7 @@ nav ul.social li {
 .main-content {
 	padding-left: 30px;
 	padding-top: 50px;
+	padding-right: 20px;
 	height: 760px;
 	width: 675px;
 	float: right;
@@ -111,4 +112,12 @@ nav ul.social li {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.post-content {
+	width: 100%;
+}
+
+.post-container {
+	width: 100%;
 }
