@@ -42,6 +42,8 @@
             <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
           {% else %}
             <a class="btn disabled prev">&larr; Previous</a>
+          {% endif %}
+          
           {% if page.next %}
             <a class="btn next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
           {% else %}
