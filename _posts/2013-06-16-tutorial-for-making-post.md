@@ -47,3 +47,8 @@ tags: ["Jekyll"]
     Side note: if you want to check where this is defined, you can take a look over \_layouts\post.html
     Site note 2: Some of the template is actually defined in liquid syntax, so if you dont understand, dont worry about it, just think of it like how JSP page works with template.
 </pre>
+<h5> Extra fun, decorations </h5>
+<p>
+    If you noticed from my post, there are some tooltip popping up on links, you can also add it to your post easily just add a <code>tooltip="[Tooltip content]"</code> into your <b>Attribute</b> of the element. <br>
+    That is actually coming from the <a tooltip="This is cool simple library to use!" href="http://angular-ui.github.io/bootstrap/">angularJS UI bootstrap</a> library in the page, so if you want to decorate your post, you are free to use it
+</p>
