@@ -4,6 +4,7 @@ title: "Tutorial for Making Post"
 description: "A simple way of making post for jekyll"
 category: "Tutorial"
 tags: ["Jekyll"]
+tagline: "Simple tutorial"
 ---
 {% include JB/setup %}
 
