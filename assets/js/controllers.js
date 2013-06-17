@@ -12,3 +12,7 @@ function CarouselCtrl($scope) {
 		{image: 'AW_gallery/Screenshot6.png'}
 	];
 }
+
+function PostCtrl($scope) {
+	
+}

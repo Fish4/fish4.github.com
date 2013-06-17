@@ -22,7 +22,7 @@ tagline: "Simple tutorial"
 </code>
 
 <p>
-    After that, you will have to understand what a post is and where it is goint to be, so you can customize post in your own way!
+    After that, you will have to understand what a post is and where it is going to be, so you can customize post in your own way!
 </p>
 <p>
     So what a post is and what components do we have to write?
