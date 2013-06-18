@@ -85,6 +85,11 @@ nav ul.social li {
 	line-height: 0;
 }
 
+img.resize {
+	width: 100%;
+	height: 100%;
+}
+
 .social {
 	text-align: center;
 }
@@ -147,4 +152,10 @@ canvas {
 	border: 0;
 	display: block;
 	margin: 0 auto;
+}
+
+.spaceship-icon {
+	float: left;
+	height: 75px;
+	width: 75px;
 }
