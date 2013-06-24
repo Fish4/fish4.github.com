@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Summary of Meeting 2"
+blogger: "Eric"
 tagline: "Engine, Picture of Game"
 description: "Discussed about which engine to use, basic picture of the game."
 category: "Weekly Meeting"
