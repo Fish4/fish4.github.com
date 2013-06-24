@@ -24,7 +24,13 @@ tagline: Game Development Blog
 
 	<h3>
 		{% if post.title %}
-			<a href="{{ root_url }}{{ post.url }}">{{ post.title }} - <small>{{ post.tagline }}</small></a>
+			<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+			{% if post.tagline %}
+				- <small>{{ post.tagline }}</small>
+			{% endif %}
+			{% if post.blogger %}
+				by <small>{{ post.blogger }}</small>
+			{% endif %}
 		{% endif %}
 	</h3>
 	<div class="entry-content">
